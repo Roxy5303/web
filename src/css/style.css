@@ -1,5 +1,5 @@
 body {
-  background-color: #222222;
+  background-color: #232c22;
   color: #e8f0ff;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
     sans-serif;
@@ -59,7 +59,9 @@ nav {
 }
 
 .Slogan {
-  font-size: 20px;
+  font-size: 23px;
+  font-style: bold;
+  font-family: cursive;
   margin: 20px;
   padding-top: 20px;
   color: black;
@@ -76,7 +78,7 @@ nav {
   margin-right: 50px;
   cursor: pointer;
   color: black;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .button,
@@ -87,7 +89,7 @@ input[type="button"] {
   display: inline-block;
   padding: 10px 20px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: double;
   white-space: nowrap;
   font-size: 20px;
   background-color: #e8f0ff;
@@ -108,7 +110,7 @@ nav {
 #btn1,
 #btn2,
 #btn3 {
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 .button:focus:enabled,
