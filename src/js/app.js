@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /**
  * WEB222 – Assignment 04
  *
@@ -11,11 +10,12 @@
  *
  *      Name:       Rahi Kiransinh Raolji
  *      Student ID: 160169215
- *      Date:       23 / 11 / 2022
+ *      Date:       22 November 2022
  */
 
 // All of our data is available on the global `window` object.
 // Create local variables to work with it in this file.
+
 const { products, categories } = window;
 
 window.onload = () => {
@@ -102,10 +102,15 @@ function createCard(element) {
   imageOfProduct.setAttribute("style", "width:300px;height:300px;");
   title.innerHTML = element.title;
   description.innerHTML = element.description;
-  price.innerHTML = new Intl.NumberFormat("de-DE", {
+  price.innerHTML = new Intl.NumberFormat("zh-CN", {
     style: "currency",
     currency: "CAD"
   }).format(element.price);
+
+  /*new Intl.NumberFormat("de-DE",{
+    style: "currency",
+    currency: "CAD"
+  }).format(element.price);*/
 
   frontDiv.appendChild(imageOfProduct);
   backDiv.appendChild(title);
