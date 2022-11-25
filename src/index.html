@@ -10,7 +10,13 @@
 
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
   </head>
+  
+  <!-- JavaScript Data Files -->
+    <script src="./js/categories.js"></script>
+    <script src="./js/products.js"></script>
 
+    <!-- Main App JavaScript File -->
+    <script src="./js/app.js"></script>
   <body>
     <header>
       <!--BUSINESS NAME 
@@ -25,43 +31,34 @@
         </div>
         <div class="navItem">
           <div class="search">
-            <input type="text" placeholder="Search..." class="searchInput" />
+            <input type="search" placeholder="Search..." class="searchInput" />
             <img src="img/search.png" width="20" height="20" alt="" class="searchIcon" />
           </div>
         </div>
+
         <div class="navItem">
           <span class="Slogan">Groom Yourself!</span>
         </div>
       </div>
       <div class="navBottom">
-        <h3 class="menuItem">Skin Care</h3>
-        <h3 class="menuItem">Body and Hair</h3>
-        <h3 class="menuItem">Nutrition and Supplements</h3>
-        <h3 class="menuItem">Value and gift Sets</h3>
+        <br />
+        <nav id="menu" style="text-align: center">
+          <br />
+        </nav>
       </div>
     </nav>
-    <hr />
     <br />
-
     <span style="border-radius: 10px; font-size: 40px">Products</span>
     <br />
-    <nav id="menu" style="text-align: center"></nav>
-    <br />
+
     <hr />
 
     <main>
-      <!-- THE TITLE OF THE CATEGORY ACCORDING TO THE SELECTION OF THE USER. -->
+      <!-- CATEGORY TITLE ACCORDING TO USER SELECTION -->
       <h2 id="selected-category" style="font-size: 50px; text-align: center"></h2>
 
-      <!-- THE PRODUCTS INCLUDED IN THE CATEGORY. -->
+      <!-- THE PRODUCTS INCLUDED PER CATEGORY -->
       <section id="category-products"></section>
     </main>
-
-    <!-- JavaScript Data Files -->
-    <script src="./js/categories.js"></script>
-    <script src="./js/products.js"></script>
-
-    <!-- Main App JavaScript File -->
-    <script src="./js/app.js"></script>
   </body>
 </html>
