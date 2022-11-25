@@ -5,17 +5,12 @@
  * Each product Object includes the following properties:
  *
  *  - id: String, a unique product identifier (e.g., "P1", "P2")
- *  - title: String, a short name for the product (e.g., "Gingerbread Cookie")
+ *  - name: String, a short name for the product (e.g., "Gingerbread Cookie")
  *  - description: String, a description of the product
  *  - price: Number, the unit price of the item in whole cents (e.g., 100 = $1.00, 5379 = $53.79)
  *  - discontinued: Boolean, whether or not the product has been discontinued
  *  - categories: Array, the category id or ids to which this product belongs (e.g., ["c1"] or ["c1", "c2"])
  */
-
-// ARRAY OF OBJECTS.
-// [] : ARRAY
-// {} : OBJECT
-// ARRAY OF OBJECTS : [ {}, {}, {} ]
 
 window.products = [
   // OBJECT 1
@@ -26,7 +21,7 @@ window.products = [
     price: 39,
     discontinued: false,
     categories: ["00a"],
-    image: "/img/IMG_2894.png"
+    image: "https://github.com/Roxy5303/web/blob/main/src/img/IMG_2894.jpg?raw=true"
   },
 
   // OBJECT 2
@@ -38,7 +33,7 @@ window.products = [
     price: 49,
     discontinued: false,
     categories: ["00a"],
-    image: "/img/Orange-Peel-Powder-Benefits-Of-Orange-Peel-Powder-Recibeauty.jpg"
+    image: "https://i.pinimg.com/originals/e2/d9/b6/e2d9b68d01c4b9fe4c84ee0b0179c5a9.jpg"
   },
 
   // OBJECT 3
@@ -50,7 +45,8 @@ window.products = [
     price: 79,
     discontinued: false,
     categories: ["00a"],
-    image: "/img/rice_flour_and_honey_scrub_shutterstock_286868465__1509534795.jpg"
+    image:
+      "https://github.com/Roxy5303/web/blob/main/src/img/rice_flour_and_honey_scrub_shutterstock_286868465__1509534795.jpg?raw=true"
   },
 
   // OBJECT 4
@@ -62,7 +58,8 @@ window.products = [
     price: 29,
     discontinued: false,
     categories: ["00a"],
-    image: "/img/lavender-essential-oil-natural-skin_1024x400.jpg"
+    image:
+      "https://cdn.shopify.com/s/files/1/0037/7690/5283/articles/lavender-essential-oil-natural-skin_1024x400.jpg?v=1635175282"
   },
 
   // OBJECT 5
@@ -72,9 +69,9 @@ window.products = [
     description:
       "100% pure tea tree essential oil used for skin, hair and also as an aroma therapy. Calms and sooths the mind. ",
     price: 29,
-    discontinued: false,
+    discontinued: true,
     categories: ["00a"],
-    image: "/img/Eucalyptus-oil-12.jpg"
+    image: "https://github.com/Roxy5303/web/blob/main/src/img/Eucalyptus-oil-12.jpg?raw=true"
   },
 
   // OBJECT 6
@@ -85,7 +82,7 @@ window.products = [
     price: 9.5,
     discontinued: false,
     categories: ["00b"],
-    image: "/img/almond-oil.png"
+    image: "https://github.com/Roxy5303/web/blob/main/src/img/almond-oil.png?raw=true"
   },
 
   // OBJECT 7
@@ -96,7 +93,8 @@ window.products = [
     price: 10,
     discontinued: false,
     categories: ["00b"],
-    image: "/img/castoroil.jpeg"
+    image:
+      "https://static-bebeautiful-in.unileverservices.com/1200/900/DIY-castor-oil-hacks_mobilehome.jpg"
   },
 
   // OBJECT 8
@@ -118,7 +116,8 @@ window.products = [
     price: 7,
     discontinued: false,
     categories: ["00c"],
-    image: "/img/coconut oil.jpeg"
+    image:
+      "https://static01.nyt.com/images/2019/06/02/health/02well_coconut/02well_coconut-mobileMasterAt3x-v2.jpg"
   },
 
   // OBJECT 10
@@ -130,7 +129,7 @@ window.products = [
     price: 30,
     discontinued: false,
     categories: ["00c"],
-    image: "/img/diy-coffee-scrub-1.jpg"
+    image: "https://github.com/Roxy5303/web/blob/main/src/img/diy-coffee-scrub-1.jpg?raw=true"
   },
 
   // OBJECT 11
@@ -141,7 +140,7 @@ window.products = [
     price: 20,
     discontinued: false,
     categories: ["00d"],
-    image: "/img/APC_0011.jpg"
+    image: "https://github.com/Roxy5303/web/blob/main/src/img/APC_0016.jpg?raw=true"
   },
 
   // OBJECT 13
@@ -153,7 +152,7 @@ window.products = [
     price: 20,
     discontinued: false,
     categories: ["00d"],
-    image: "/img/APC_0016.jpg"
+    image: "https://github.com/Roxy5303/web/blob/main/src/img/APC_0011.jpg?raw=true"
   },
 
   // OBJECT 10
@@ -164,6 +163,6 @@ window.products = [
     price: 10,
     discontinued: true,
     categories: ["00d"],
-    image: "/img/kajal.jpeg"
+    image: "https://github.com/Roxy5303/web/blob/main/src/img/kajal.jpeg?raw=true"
   }
 ];
